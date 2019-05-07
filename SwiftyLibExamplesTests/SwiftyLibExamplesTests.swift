@@ -1,21 +1,18 @@
 //
-//  SwiftyLibTests.swift
-//  SwiftyLibTests
+//  SwiftyLibExamplesTests.swift
+//  SwiftyLibExamplesTests
 //
-//  Created by Gianmarco Cotellessa on 06/05/2019.
+//  Created by Gianmarco Cotellessa on 07/05/2019.
 //  Copyright © 2019 Gianmarco Cotellessa. All rights reserved.
 //
 
 import XCTest
-@testable import SwiftyLib
+@testable import SwiftyLibExamples
 
-class SwiftyLibTests: XCTestCase {
+class SwiftyLibExamplesTests: XCTestCase {
 
-    var swiftyLib: SwiftyLib!
-    
     override func setUp() {
         // Put setup code here. This method is called before the invocation of each test method in the class.
-        swiftyLib = SwiftyLib()
     }
 
     override func tearDown() {
@@ -32,14 +29,6 @@ class SwiftyLibTests: XCTestCase {
         self.measure {
             // Put the code you want to measure the time of here.
         }
-    }
-    
-    func testAdd() {
-        XCTAssertEqual(swiftyLib.add(a: 1, b: 1), 2)
-    }
-    
-    func testSub() {
-        XCTAssertEqual(swiftyLib.sub(a: 2, b: 1), 1)
     }
 
 }
